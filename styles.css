@@ -57,7 +57,8 @@ html{
     top: 100px;
     font-size: larger;
     text-shadow: 1px -1px 0 firebrick, /* Acrescenta sombras do Texto */
-    2px -2px 0 firebrick;
+    2px -2px 0 firebrick,
+    3px -3px 0 firebrick;
     /* deslocamento-x | deslocamento-y | raio-de-desfoque | cor */
 
 }
@@ -100,16 +101,16 @@ html{
 }
 
 .ImagesOfDoomSlayer img{
-    width: 300px;
-    height: 300px;
+    height: 710px;
+    width: 430px;
     display: flex;
     justify-content: flex-end;
     transition: transform 0.5s ease-in-out;
     position: relative;
-    left: 70%;
-    top: -300px; /* Margin Top: Define um espaçamento de um objeto ou da propria borda do site, enquanto Top: é raramente usado para posicionar elementos e pouco responsivo*/
-    border: 5px solid rgb(75, 40, 0);
-    box-shadow: none;
+    left: 66%;
+    top: -320px; /* Margin Top: Define um espaçamento de um objeto ou da propria borda do site, enquanto Top: é raramente usado para posicionar elementos e pouco responsivo*/
+    background: linear-gradient();
+
 
 }
 
@@ -126,7 +127,7 @@ html{
     border: 2px solid firebrick;
     padding: 10px 110px;
     position: relative;
-    left: 935px;
+    left: 1310px;
     top: -280px;
     background: linear-gradient(to bottom, black, #3a1903);
     cursor: pointer;
