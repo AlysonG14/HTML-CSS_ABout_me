@@ -44,7 +44,7 @@ a {
 }
 
 html{
-    background: linear-gradient(to bottom, black, #220f02);
+    background: linear-gradient(to bottom, black, #351804);     
 }
 
 .Name{
@@ -95,8 +95,8 @@ html{
     color: aliceblue;
     position: relative;
     display: flex;
-    top: -400px;
     padding-left: 30px;
+    top: -100px
 
 }
 
@@ -120,6 +120,28 @@ html{
     
 }
 
+.AboutMe{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 10px 160px 10px;
+    position: relative;
+    display: inline-block;
+    border: 3px solid firebrick;
+    text-align: center;
+    left: 30px;
+    background: linear-gradient(to bottom, firebrick, rgb(79, 9, 9));
+    transition: 1s;
+    cursor: pointer;
+    align-items: center;
+    top: -100px
+
+}
+
+.AboutMe:hover{
+    transform: scale(1.1);  
+}
+
 .NameCharacter {
     color: rgb(255, 255, 255); 
     display: inline-block; /* Faz a borda envolver apenas o conteúdo */
@@ -130,10 +152,9 @@ html{
     left: 1310px;
     top: -280px;
     background: linear-gradient(to bottom, black, #3a1903);
-    cursor: pointer;
     transition: 1s;
+    cursor: pointer;
     align-items: center;
-
 
 }
 
@@ -149,7 +170,9 @@ html{
 .FavoriteBooks h2 {
     color: orange;
     text-align: center;
-    border: 10px outset rgb(0, 0, 0);
+    border: 10px solid  rgb(0, 0, 0);
+    padding: 1%;
+    background: firebrick;
 }
 
 .ImagesBooks {
@@ -161,6 +184,7 @@ html{
     gap: 50px;
     cursor: pointer;
 }
+
 
 .ImagesBooks :hover{
     transition: 1s;
@@ -187,6 +211,7 @@ html{
     color: orange;
     text-align: center;
     border: 10px outset rgb(0, 0, 0);
+    padding: 1%;
 }
 
 .ImagesMovies{
@@ -214,6 +239,7 @@ html{
     color: orange;
     text-align: center;
     border: 10px outset rgb(0, 0, 0);
+    padding: 1%;
 
 }
 
@@ -241,6 +267,7 @@ html{
     color: orange;
     text-align: center;
     border: 10px outset rgb(0, 0, 0);
+    padding: 1%;
 
 }
 
