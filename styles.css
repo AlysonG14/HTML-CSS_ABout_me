@@ -142,44 +142,123 @@ html{
 }
 
 
-.FavoriteSeries{
-    color: aliceblue;
-}
-
-.FavoriteSeries h2{
-    text-align: center;
-    border: 10px outset black;
-    color: orange;
-}
-
-.FavoriteSongs{
-    color: aliceblue;
-}
-
-.FavoriteSongs h2{
-    text-align: center;
-    border: 10px outset black;
-    color: orange;
-    
-}
-
 .FavoriteBooks{
     color: aliceblue;
 }
 
-.FavoriteBooks h2{
+.FavoriteBooks h2 {
+    color: orange;
     text-align: center;
-    border: 10px outset black;
-    color: orange
-} 
+    border: 10px outset rgb(0, 0, 0);
+}
 
-.FavoriteMovies{
+.ImagesBooks {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.ImagesBooks :hover{
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.TextBooks {
+    align-items: center;
+    position: absolute;
+    top: 290px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 190px;
+    text-align: center;
+}
+
+.FavoriteMovies {
     color: aliceblue;
 }
 
 .FavoriteMovies h2{
+    color: orange;
     text-align: center;
-    border: 10px outset black;
-    color: orange
+    border: 10px outset rgb(0, 0, 0);
 }
+
+.ImagesMovies{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.ImagesMovies :hover{
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.FavoriteSongs{
+    color: aliceblue;
+
+}
+
+.FavoriteSongs h2 {
+    color: orange;
+    text-align: center;
+    border: 10px outset rgb(0, 0, 0);
+
+}
+
+.ImagesSongs {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transition: 1s;
+}
+
+.ImagesSongs :hover{
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.FavoriteSeries {
+    color: aliceblue;
+}
+
+.FavoriteSeries h2{
+    color: orange;
+    text-align: center;
+    border: 10px outset rgb(0, 0, 0);
+
+}
+
+.ImagesSeries{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.ImagesSeries img:hover{
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
 
