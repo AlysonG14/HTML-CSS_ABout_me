@@ -1,3 +1,7 @@
+/* HEADER: Configurações do Header sobre o cabeçalho */
+
+/* Estilo do cabeçalho */
+
 header {
     background-color: rgb(14, 13, 13);
     padding: 0%;
@@ -5,6 +9,8 @@ header {
     position: static;
     border: 2px solid rgb(41, 37, 37);
 }
+
+/* Estilo para a imagem dentro do cabeçalho */
 
 .Images img{
     display: flex;
@@ -16,6 +22,8 @@ header {
     left: 70px;
     
 }
+
+/* Estilo para a barra de navegação */
 
 .Informations{
     cursor: pointer;
@@ -32,10 +40,14 @@ header {
 
 }
 
+/* Efeito de hover na barra de navegação */
+
 .Informations a:hover{
     transform: scale(1.2);
     transition: 1s;
 }
+
+/* Estilo dos links de navegação */
 
 a {
     text-decoration: none; /* Remove o sublinhado */
@@ -43,9 +55,15 @@ a {
     
 }
 
+/* Cor de fundo e transição para o fundo da página */
+
 html{
     background: linear-gradient(to bottom, black, #351804);     
 }
+
+/* SEÇÕES PRINCIPAIS: Nome, Carreira, Idade, Descrição */
+
+/* Estilo do nome */
 
 .Name{
     justify-content: flex-start;
@@ -63,6 +81,8 @@ html{
 
 }
 
+/* Estilo da carreira */
+
 .Career {
     color: rgb(0, 136, 255);
     display: flex;
@@ -75,6 +95,8 @@ html{
     2px -2px 0 rgb(0, 136, 255);
 
 }
+
+/* Estilo da idade */
 
 .Age{
     left: 30px;
@@ -91,40 +113,25 @@ html{
 
 }
 
+/* Estilo da Descrição sobre mim */
+
 .Description{
     color: aliceblue;
     position: relative;
     display: flex;
     padding-left: 30px;
-    top: -100px
+    top: -100px;
+    font-size: larger;
 
 }
 
-.ImagesOfDoomSlayer img{
-    height: 710px;
-    width: 430px;
-    display: flex;
-    justify-content: flex-end;
-    transition: transform 0.5s ease-in-out;
-    position: relative;
-    left: 66%;
-    top: -320px; /* Margin Top: Define um espaçamento de um objeto ou da propria borda do site, enquanto Top: é raramente usado para posicionar elementos e pouco responsivo*/
-    background: linear-gradient();
-
-
-}
-
-.ImagesOfDoomSlayer img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    
-}
+/* Estilo da Borda de Sobre Mim */
 
 .AboutMe{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
-    padding: 10px 160px 10px;
+    padding: 10px 200px 10px;
     position: relative;
     display: inline-block;
     border: 3px solid firebrick;
@@ -138,19 +145,53 @@ html{
 
 }
 
+/* Efeito da hover da Borda */
+
 .AboutMe:hover{
-    transform: scale(1.1);  
+    transform: scale(1.1);        
 }
+
+/* Destacando texto forte dentro da descrição */
+
+strong{
+    background-color: rgba(255, 0, 0, 0.432);
+}
+
+/* Estilo da imagem de DOOM SLAYER (uma imagem que representa) */
+
+/* Estilo da imagem */
+
+.ImagesOfDoomSlayer img{
+    height: 910px;
+    width: 530px;
+    display: flex;
+    justify-content: flex-end;
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    left: 60%;
+    top: -570px; /* Margin Top: Define um espaçamento de um objeto ou da propria borda do site, enquanto Top: é raramente usado para posicionar elementos e pouco responsivo*/
+
+}
+
+/* Efeito de hover na imagem do Doom Slayer */
+
+.ImagesOfDoomSlayer img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+/* Estilo do título do personagem */
 
 .NameCharacter {
     color: rgb(255, 255, 255); 
     display: inline-block; /* Faz a borda envolver apenas o conteúdo */
     justify-content: flex-end;
     border: 2px solid firebrick;
-    padding: 10px 110px;
+    padding: 10px 170px;
     position: relative;
-    left: 1310px;
-    top: -280px;
+    left: 1200px;
+    top: -500px;
     background: linear-gradient(to bottom, black, #3a1903);
     transition: 1s;
     cursor: pointer;
@@ -158,14 +199,22 @@ html{
 
 }
 
+/* Efeito de hover no nome do personagem */
+
 .NameCharacter:hover {
     transform: scale(1.1);
 }
 
+/* FAVORITOS (Livros, Filmes, Músicas, Séries) */
+
+
+/* Estilo para os livros favoritos */
 
 .FavoriteBooks{
     color: aliceblue;
 }
+
+/* Estilo para a categoria de livros favoritos */
 
 .FavoriteBooks h2 {
     color: orange;
@@ -174,6 +223,8 @@ html{
     padding: 1%;
     background: firebrick;
 }
+
+/* Estilo das imagens dentro das seções de livros favoritos */
 
 .ImagesBooks {
     text-align: center;
@@ -186,33 +237,32 @@ html{
 }
 
 
+/* Efeito de hover nas imagens de livros favoritos*/
+
 .ImagesBooks :hover{
     transition: 1s;
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.TextBooks {
-    align-items: center;
-    position: absolute;
-    top: 290px;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 190px;
-    text-align: center;
-}
+
+/* Estilo para os filmes favoritos */
 
 .FavoriteMovies {
     color: aliceblue;
 }
 
+/* Estilo para a categoria de filmes favoritos */
+
 .FavoriteMovies h2{
     color: orange;
     text-align: center;
-    border: 10px outset rgb(0, 0, 0);
+    border: 10px solid  rgb(0, 0, 0);
     padding: 1%;
+    background: firebrick;
 }
+
+/* Estilo das imagens dentro das seções de filmes favoritos */
 
 .ImagesMovies{
     text-align: center;
@@ -224,24 +274,34 @@ html{
 
 }
 
+/* Efeito de hover nas imagens de filmes favoritos*/
+
+
 .ImagesMovies :hover{
     transition: 1s;
     cursor: pointer;
     transform: scale(1.1);
 }
 
+/* Estilo para os músicas favoritos */
+
 .FavoriteSongs{
     color: aliceblue;
 
 }
 
+/* Estilo para a categoria de músicas favoritos */
+
 .FavoriteSongs h2 {
     color: orange;
     text-align: center;
-    border: 10px outset rgb(0, 0, 0);
+    border: 10px solid  rgb(0, 0, 0);
     padding: 1%;
+    background: firebrick;
 
 }
+
+/* Estilo das imagens dentro das seções de músicas favoritos */
 
 .ImagesSongs {
     text-align: center;
@@ -253,23 +313,33 @@ html{
     transition: 1s;
 }
 
+/* Efeito de hover nas imagens de músicas favoritas */
+
+
 .ImagesSongs :hover{
     transition: 1s;
     cursor: pointer;
     transform: scale(1.1);
 }
 
+/* Estilo para as series favoritos */
+
 .FavoriteSeries {
     color: aliceblue;
 }
 
+/* Estilo para a categoria de series favoritos */
+
 .FavoriteSeries h2{
     color: orange;
     text-align: center;
-    border: 10px outset rgb(0, 0, 0);
+    border: 10px solid  rgb(0, 0, 0);
     padding: 1%;
+    background: firebrick;
 
 }
+
+/* Estilo das imagens dentro das seções de series favoritos */
 
 .ImagesSeries{
     text-align: center;
@@ -281,6 +351,10 @@ html{
 
 }
 
+/* Efeito de hover nas imagens de séries favoritas */
+
+
+
 .ImagesSeries img:hover{
     transition: 1s;
     cursor: pointer;
@@ -288,4 +362,13 @@ html{
 
 }
 
+.Favorites{
+    margin-top: -200px;
+
+}
+
+.Favorites{
+    position: relative;
+    margin-top: -400px;
+}
 
